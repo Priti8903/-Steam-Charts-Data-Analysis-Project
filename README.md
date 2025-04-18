@@ -68,7 +68,7 @@ df_sorted.index.name = 'Rank'
 df_sorted.to_csv("Top 100 games_2025", index=True)
 
 ```
-#Insert into MySQL:
+## Insert into MySQL:
 ```
 engine = create_engine("mysql+mysqlconnector://root:1234@127.0.0.1:3306/Game_DB")
 
