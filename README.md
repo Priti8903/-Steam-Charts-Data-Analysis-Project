@@ -75,7 +75,7 @@ engine = create_engine("mysql+mysqlconnector://root:1234@127.0.0.1:3306/Game_DB"
 
 df.to_sql(name='Top_100_games_2025', con=engine, if_exists='append', index=False)
 ```
-#Database Schema:
+## Database Schema:
 ```
 CREATE TABLE Top_100_games_2025 (
     Rank INT NOT NULL AUTO_INCREMENT,
