@@ -4,8 +4,9 @@
 This project demonstrates a comprehensive data analysis workflow, encompassing data extraction, transformation, storage, and visualization. 
 The primary objective is to analyze the top 175 games from (https://steamcharts.com/top) by scraping relevant data and presenting insights through an interactive Power BI dashboard.
 
-C:\Users\hp\OneDrive\Pictures\Screenshots.png
- 
+![Dashboard Preview](C:\Users\hp\OneDrive\Pictures\Screenshots.png)
+
+
 ## 🛠️ Tools 
 & Technologies
 - **Python**: Utilized for web scraping and data preprocessing.
