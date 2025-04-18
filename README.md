@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 This project demonstrates a comprehensive data analysis workflow, encompassing data extraction, transformation, storage, and visualization. 
-The primary objective is to analyze the top 175 games from (https://steamcharts.com/top) by scraping relevant data and presenting insights through an interactive Power BI dashboard.
+The primary objective is to analyze the top 175 games from (https://steamcharts.com/top) by scraping relevant data and presenting insights through an interactive Power BI dashboard. clikc here to view the report:(https://app.powerbi.com/view?r=eyJrIjoiOTQ1YWViOWUtMjRiNC00ZTdiLWEzNWItMjgwZjFjMjUxMjg2IiwidCI6ImE1NWRjYTQzLTA4YzMtNGM1NC1iOWViLWJlZDNhN2VhNTcxYSJ9)
 
 
 
