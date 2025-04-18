@@ -14,6 +14,7 @@ The primary objective is to analyze the top 175 games from (https://steamcharts.
 - **MySQL**: Employed for structured data storage and management.
 - **Power BI**: Used to create dynamic and interactive visualizations.
 
+# Python
 ## 📊 Data Collection & Processing
 ### Data Source: SteamCharts
 A platform providing real-time statistics on Steam games.
@@ -80,6 +81,8 @@ engine = create_engine("mysql+mysqlconnector://root:1234@127.0.0.1:3306/Game_DB"
 
 df.to_sql(name='Top_100_games_2025', con=engine, if_exists='append', index=False)
 ```
+
+# SQL
 ## Database Schema:
 ```
 CREATE TABLE Top_100_games_2025 (
