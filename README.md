@@ -118,7 +118,7 @@ Schema:`CREATE TABLE Top_100_games_2025 (
     Peak_Players INT,
     Hours_Played INT,
     PRIMARY KEY (Rank)
-);<pre> ```
+);
 
 Data Insertion:
 
