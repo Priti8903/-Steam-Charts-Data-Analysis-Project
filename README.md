@@ -30,7 +30,7 @@ Peak Players
 Hours Played
 
 
-<pre> ```from bs4 import BeautifulSoup
+`from bs4 import BeautifulSoup
 import pandas as pd
 import mysql.connector
 from sqlalchemy import create_engine
@@ -46,7 +46,7 @@ for page in range(1, 8):
     if page == 1:
         url = "https://steamcharts.com/top"
     else:
-        url = f"https://steamcharts.com/top/p.{page}" `
+        url = f"https://steamcharts.com/top/p.{page}" 
 
     response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"})
     soup = BeautifulSoup(response.text, 'html.parser')
@@ -67,7 +67,7 @@ for page in range(1, 8):
                 peak_players.append(int(peak))
                 hours_played.append(hours)
     else:
-        print(f"Table not found on page {page}") `
+        print(f"Table not found on page {page}") 
 
 Create DataFrame
 df = pd.DataFrame({
@@ -95,7 +95,7 @@ engine=create_engine("mysql+mysqlconnector://root:1234@127.0.0.1:3306/Game_DB")
 
 df.to_sql(name='Top_100_games_2025', con=engine, if_exists='append', index=False)
 
-print("✅ Data inserted into MySQL successfully.")```<pre> 
+print("✅ Data inserted into MySQL successfully.")`
 
 
 Data Cleaning:
