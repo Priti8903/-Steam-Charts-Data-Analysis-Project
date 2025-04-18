@@ -1,4 +1,5 @@
-# Steam-Charts-Data-Analysis-Project
+# ​🎮 Best Selling games of all time Data Analysis Project
+
 
 ## 📌 Project Overview
 This project demonstrates a comprehensive data analysis workflow, encompassing data extraction, transformation, storage, and visualization. 
