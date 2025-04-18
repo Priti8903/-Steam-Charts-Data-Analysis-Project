@@ -30,7 +30,7 @@ Peak Players
 Hours Played
 
 
-`from bs4 import BeautifulSoup
+""" from bs4 import BeautifulSoup
 import pandas as pd
 import mysql.connector
 from sqlalchemy import create_engine
@@ -95,10 +95,10 @@ engine=create_engine("mysql+mysqlconnector://root:1234@127.0.0.1:3306/Game_DB")
 
 df.to_sql(name='Top_100_games_2025', con=engine, if_exists='append', index=False)
 
-print("✅ Data inserted into MySQL successfully.")`
+print("✅ Data inserted into MySQL successfully.")"""
 
 
-Data Cleaning:
+# Data Cleaning:
 
 Removed commas from numerical fields to ensure correct data types.
 
@@ -106,8 +106,8 @@ Converted string representations of numbers to appropriate numeric types.
 
 Handled missing or inconsistent data entries.
 
-🗄️ Database Design
-Database: Game_DB
+# 🗄️ Database Design
+"""Database: Game_DB
 
 <pre>`Table: Top_100_games_2025
 
@@ -118,7 +118,7 @@ Schema:`CREATE TABLE Top_100_games_2025 (
     Peak_Players INT,
     Hours_Played INT,
     PRIMARY KEY (Rank)` <pre>
-);
+); """
 
 Data Insertion:
 
@@ -127,7 +127,7 @@ Established a connection between Python and MySQL using mysql.connector and SQLA
 Inserted the cleaned DataFrame into the MySQL table.​
 
 ​
-📈 Data Visualization with Power BI
+# 📈 Data Visualization with Power BI
 Data Import:
 
 Connected Power BI to the MySQL Game_DB database.
@@ -156,8 +156,8 @@ Top 10 Games by Current Players
 
 Game Ranking by Popularity
 
-📁 Repository Structure
-Best_selling_game_of_all_time.ipynb – Jupyter Notebook for data extraction and cleaning.
+# 📁 Repository Structure
+` Best_selling_game_of_all_time.ipynb – Jupyter Notebook for data extraction and cleaning.
 
 Top_100_games_2025.csv – CSV file containing the cleaned dataset.
 
@@ -165,9 +165,9 @@ Top_100_games_2025.sql – SQL script to create the database and table.
 
 Top_games_report.pbix – Power BI dashboard file.
 
-README.md – Project documentation.
+README.md – Project documentation.`
 
-📁 Clone the Repository
+# 📁 Clone the Repository
 
 `git clone https://github.com/yourusername/-Steam-Charts-Data-Analysis-Project.git
 cd -Steam-Charts-Data-Analysis-Project
