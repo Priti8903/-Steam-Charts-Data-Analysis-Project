@@ -14,7 +14,7 @@ The primary objective is to analyze the top 175 games from (https://steamcharts.
 A platform providing real-time statistics on Steam games.
 
 ### Scraping Methodology:
-```python
+```
 from bs4 import BeautifulSoup
 import pandas as pd
 import mysql.connector
@@ -54,7 +54,8 @@ for page in range(1, 8):
         print(f"Table not found on page {page}")
 ```
 #  Create DataFrame:
-``` df = pd.DataFrame({
+```
+df = pd.DataFrame({
     "Game Name": game_names,
     "Current Players": current_players,
     "Peak Players": peak_players,
