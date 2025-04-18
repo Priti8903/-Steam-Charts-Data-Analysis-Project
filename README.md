@@ -109,7 +109,7 @@ Handled missing or inconsistent data entries.
 🗄️ Database Design
 Database: Game_DB
 
-Table: Top_100_games_2025
+<pre>`Table: Top_100_games_2025
 
 Schema:`CREATE TABLE Top_100_games_2025 (
     Rank INT NOT NULL AUTO_INCREMENT,
@@ -117,7 +117,7 @@ Schema:`CREATE TABLE Top_100_games_2025 (
     Current_Players INT,
     Peak_Players INT,
     Hours_Played INT,
-    PRIMARY KEY (Rank)
+    PRIMARY KEY (Rank)` <pre>
 );
 
 Data Insertion:
